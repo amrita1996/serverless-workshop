@@ -1,68 +1,68 @@
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const handler = async (event) => {
   try {
-    const data = "[\n" +
-        "    {\n" +
-        "        \"key\": \"social\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Social\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"professional\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Professional\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"male\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Male\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"he_him\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"(He/Him)\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"languages\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Languages\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"bio:\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Bio:\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"skills:\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Skills:\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"technologies\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Technologies\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"devops\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"DevOps\"\n" +
-        "        }\n" +
-        "    },\n" +
-        "    {\n" +
-        "        \"key\": \"cloud_technologies\",\n" +
-        "        \"translations\": {\n" +
-        "            \"en\": \"Cloud Technologies\"\n" +
-        "        }\n" +
-        "    }\n" +
-        "]";
+    const data = [
+      {
+        "key": "social",
+        "translations": {
+          "en": "Social"
+        }
+      },
+      {
+        "key": "professional",
+        "translations": {
+          "en": "Professional"
+        }
+      },
+      {
+        "key": "male",
+        "translations": {
+          "en": "Male"
+        }
+      },
+      {
+        "key": "he_him",
+        "translations": {
+          "en": "(He/Him)"
+        }
+      },
+      {
+        "key": "languages",
+        "translations": {
+          "en": "Languages"
+        }
+      },
+      {
+        "key": "bio:",
+        "translations": {
+          "en": "Bio:"
+        }
+      },
+      {
+        "key": "skills:",
+        "translations": {
+          "en": "Skills:"
+        }
+      },
+      {
+        "key": "technologies",
+        "translations": {
+          "en": "Technologies"
+        }
+      },
+      {
+        "key": "devops",
+        "translations": {
+          "en": "DevOps"
+        }
+      },
+      {
+        "key": "cloud_technologies",
+        "translations": {
+          "en": "Cloud Technologies"
+        }
+      }
+    ];
     return {
       statusCode: 200,
       body: JSON.stringify(data),
