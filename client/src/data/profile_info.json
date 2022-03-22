@@ -2,9 +2,9 @@
     "basic_info": {
         "image": "profile-pic.jpg",
         "name": {
-            "first_name": "Lorem ",
-            "middle_name": "elit",
-            "last_name": "Ipsum",
+            "first_name": "Amrita ",
+            "middle_name": "",
+            "last_name": "Krishna",
             "order": [
                 "first_name",
                 "middle_name",
@@ -12,17 +12,17 @@
             ]
         },
         "pronouns": {
-            "value": "he_him",
+            "value": "she_her",
             "emoji": "&#128102;"
         }
     },
     "contact_info": {
         "phone_no": {
-            "value": "+1 (987) 654-3210",
+            "value": "+1 (782) 882-2376",
             "emoji": "&#128222;"
         },
         "email_id": {
-            "value": "lorem.ipsum@gmail.com",
+            "value": "amritakrishna12@gmail.com",
             "emoji": "&#128232;",
             "emoji_style": {
                 "font-size": "20px"
@@ -35,12 +35,12 @@
                 "data": [
                     {
                         "name": "LinkedIn",
-                        "url": "",
+                        "url": "https://www.linkedin.com/in/amritakrishna/",
                         "icon": "linkedin.svg"
                     },
                     {
                         "name": "GitHub",
-                        "url": "",
+                        "url": "https://github.com/amrita1996",
                         "icon": "github.svg"
                     },
                     {
@@ -110,19 +110,19 @@
                     {
                         "name": "Angular",
                         "icon": "angular.svg",
-                        "percentage": 80,
+                        "percentage": 95,
                         "size": "sm"
                     },
                     {
                         "name": "Javascript",
                         "icon": "javascript.svg",
-                        "percentage": 85,
+                        "percentage": 95,
                         "size": "sm"
                     },
                     {
                         "name": "Typescript",
                         "icon": "typescript.svg",
-                        "percentage": 80,
+                        "percentage": 95,
                         "size": "sm"
                     },
                     {
